@@ -1,20 +1,17 @@
 body {
     color: #333333;
     font-family: arial;
-    max-width: 90%;
+    max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
 
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    
+    min-height: 100vh
 }
 
 .main-content {
     flex-grow: 1;
-    position: relative;
-    align-content: center
 }
 
 footer {
@@ -34,11 +31,16 @@ h1 {
     margin-bottom: 16px;
 }
 
-a {
+header a {
     color: #888888;
     margin-right: 16px;
     text-decoration: none;
 }
+
+.portrait {
+    width: 250px;
+}
+
 input {
     border: 1px solid #cccccc;
     padding: 8px;
