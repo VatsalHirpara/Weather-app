@@ -1,7 +1,7 @@
 body {
     color: #333333;
     font-family: arial;
-    max-width: 650px;
+    max-width: 80%;
     margin: 0 auto;
     padding: 0 16px;
 
@@ -38,9 +38,6 @@ header a {
     text-decoration: none;
 }
 
-.portrait {
-    width: 250px;
-}
 
 input {
     border: 1px solid #cccccc;
