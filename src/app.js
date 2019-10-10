@@ -45,7 +45,7 @@ app.get('/help', (req, res) => {
 app.get('/weather', (req, res) => {
     if (!req.query.address) {
         return res.send({
-            error: 'You must provide an address!'
+            error: 'You must provide an valid address!'
         })
     }
 
@@ -71,7 +71,7 @@ app.get('/weather', (req, res) => {
 app.get('/help/*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Andrew Mead',
+        name: 'Vatsal Hirpara',
         errorMessage: 'Help article not found.'
     })
 })
@@ -79,7 +79,7 @@ app.get('/help/*', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Andrew Mead',
+        name: 'Vatsal Hirpara',
         errorMessage: 'Page not found.'
     })
 })
